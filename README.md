@@ -110,7 +110,7 @@ We model S^1 as the cyclic quotient of 16 points labelled
 
   `a = v_0,   b = v_4,   c = v_8,   d = v_12`,
 
-and the K-edges as the three consecutive arcs between adjacent
+and the K-edges as the consecutive arcs between adjacent
 vertices:
 
   `ab = {v_1, v_2, v_3}`,     `bc = {v_5, v_6, v_7}`,
