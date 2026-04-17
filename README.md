@@ -195,9 +195,7 @@ Two scripts operate on this data, at different levels of the framework:
     - Asserts that the Morse barcode equals the original barcode,
       verifying Theorem 4.10 on Leray data.
 
-Both scripts agree on the barcode:
-
-  H0 = {[0, ∞), [0, 2)}   H1 = {[3, ∞)}
+Both scripts agree on the barcode: H0 = {[0, ∞), [0, 2)}   H1 = {[3, ∞)}
 
 ## Component 3 — Complexity experiment (essay § 5.2)
 
