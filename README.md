@@ -135,16 +135,12 @@ whose dimension equals the number of connected components of
 `X_i ∩ st(σ)` under the cyclic adjacency on the 16 points. Costalk
 dimensions at each filtration level are:
 
-| σ    | L^0 | L^1 | L^2 | L^3 |
-|------|-----|-----|-----|-----|
-| `a`  |  1  |  1  |  1  |  1  |
-| `b`  |  0  |  1  |  1  |  1  |
-| `c`  |  0  |  1  |  1  |  1  |
-| `d`  |  1  |  1  |  1  |  1  |
-| `ab` |  0  |  0  |  1  |  1  |
-| `bc` |  0  |  1  |  1  |  1  |
-| `cd` |  0  |  1  |  1  |  1  |
-| `ad` |  0  |  0  |  0  |  1  |
+| level | `a` | `b` | `c` | `d` | `ab` | `bc` | `cd` | `ad` |
+|-------|-----|-----|-----|-----|------|------|------|------|
+| `L^0` |  1  |  0  |  0  |  1  |  0   |  0   |  0   |  0   |
+| `L^1` |  1  |  1  |  1  |  1  |  0   |  1   |  1   |  0   |
+| `L^2` |  1  |  1  |  1  |  1  |  1   |  1   |  1   |  0   |
+| `L^3` |  1  |  1  |  1  |  1  |  1   |  1   |  1   |  1   |
 
 ### Worked derivations of table entries
 
