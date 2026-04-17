@@ -1,0 +1,70 @@
+{
+  "checks": [
+    {
+      "name": "path_4_large_reduction",
+      "barcodes_original": {
+        "H0": [
+          "[0,∞)"
+        ]
+      },
+      "barcodes_morse": {
+        "H0": [
+          "[0,∞)"
+        ]
+      },
+      "agree": true,
+      "critical_count": 1,
+      "total_simplices": 7
+    },
+    {
+      "name": "c4_gallery_moderate",
+      "barcodes_original": {
+        "H0": [
+          "[0,2)",
+          "[0,∞)"
+        ],
+        "H1": [
+          "[3,∞)"
+        ]
+      },
+      "barcodes_morse": {
+        "H0": [
+          "[0,2)",
+          "[0,∞)"
+        ],
+        "H1": [
+          "[3,∞)"
+        ]
+      },
+      "agree": true,
+      "critical_count": 6,
+      "total_simplices": 8
+    },
+    {
+      "name": "filled_triangle_no_reduction",
+      "barcodes_original": {
+        "H0": [
+          "[0,1)",
+          "[0,1)",
+          "[0,∞)"
+        ],
+        "H1": [
+          "[1,2)"
+        ]
+      },
+      "barcodes_morse": {
+        "H0": [
+          "[0,1)",
+          "[0,1)",
+          "[0,∞)"
+        ],
+        "H1": [
+          "[1,2)"
+        ]
+      },
+      "agree": true,
+      "critical_count": 7,
+      "total_simplices": 7
+    }
+  ]
+}

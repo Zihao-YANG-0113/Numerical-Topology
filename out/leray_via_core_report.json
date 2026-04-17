@@ -1,0 +1,103 @@
+{
+  "name": "leray_c4_via_core",
+  "levels": 4,
+  "simplices": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "ab",
+    "bc",
+    "cd",
+    "ad"
+  ],
+  "costalk_dimensions": {
+    "a": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "b": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "c": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "d": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "ab": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "bc": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "cd": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "ad": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "matching": [
+    [
+      "c",
+      "bc"
+    ]
+  ],
+  "critical": [
+    "a",
+    "ab",
+    "ad",
+    "b",
+    "cd",
+    "d"
+  ],
+  "critical_count": 6,
+  "reduction_ratio": 0.75,
+  "matching_is_acyclic": true,
+  "barcodes_original": {
+    "H0": [
+      "[0,2)",
+      "[0,∞)"
+    ],
+    "H1": [
+      "[3,∞)"
+    ]
+  },
+  "barcodes_morse": {
+    "H0": [
+      "[0,2)",
+      "[0,∞)"
+    ],
+    "H1": [
+      "[3,∞)"
+    ]
+  },
+  "theorem_4_10_verified": true,
+  "timings": {
+    "coscythe_seconds": 0.001978400003281422
+  }
+}
