@@ -65,11 +65,11 @@ The main example is specifically designed to exercise the algorithm
 **beyond the zero-extended constant case** of Proposition 3.4. At level 3,
 the costalks at `b` and `bc` are F^2 (rather than 0 or F), and the
 extension maps `C^3(bc ≥ c) = π_1` and `C^3(ab ≥ b) = ι` are non-identity
-maps between costalks of different dimension. This takes the input
+maps between costalks of different dimension. **This takes the input
 outside the reach of the classical Mischaikow–Nanda algorithm [3],
 which operates on filtrations of subcomplexes with constant coefficients,
 and makes the example a genuine test of the cosheaf-theoretic
-generalisation developed in the essay.
+generalisation developed in the essay.**
 
 The filtered cosheaf of Example 5.3 is assembled directly from the
 cosheaf data given in the essay.
@@ -92,7 +92,7 @@ The script additionally runs three smaller examples spanning the full
 range of reduction strength — reduction ratios ≈ 14%, 75%, 100% — each
 independently verified to satisfy `original barcode = Morse barcode`.
 Together they illustrate the limitation flagged in the essay's
-Discussion: Definition 3.3's compatibility requirement can restrict
+Discussion: compatibility requirement can restrict
 the algorithm's efficiency, with `filled_triangle_no_reduction` being
 the extreme case (100%) where no pair is matchable.
 
