@@ -96,10 +96,7 @@ Discussion: Definition 3.3's compatibility requirement can restrict
 the algorithm's efficiency, with `filled_triangle_no_reduction` being
 the extreme case (100%) where no pair is matchable.
 
-Expected output for the main example:
-  H0 = {[0, ∞), [0, 2)}   H1 = {[3, ∞)}
-
-with four critical simplices `a, d, ab, ad`.
+Expected output for the main example: H0 = {[0, ∞), [0, 2)}   H1 = {[3, ∞)} with four critical simplices `a, d, ab, ad`.
 
 ## Component 2 — Leray C4 example (essay § 2.4)
 
