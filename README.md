@@ -163,11 +163,6 @@ Unrolling the formula `L^i(σ) = H_0(X_i ∩ st(σ); F)` on four representative 
   the edge itself), so `st(bc) ∩ X_1 = {v_5, v_6, v_7}`, again a
   single arc, giving `dim L^1(bc) = 1`.
 
-- **`L^3(a)`**: `X_3 = S^1` is all 16 points, so `st(a) ∩ X_3 = st(a)
-  = {v_0, v_1, v_2, v_3, v_13, v_14, v_15}`. Under the cyclic
-  adjacency `v_15 ~ v_0`, these seven points form a single arc that
-  wraps around the base-point, so `dim L^3(a) = 1`.
-
 The cyclic adjacency is the reason `{v_0, v_1, v_2, v_3, v_13, v_14, v_15}`
 counts as *one* component and not two. In the code, this is handled by
 `num_components` in [leray_c4_combinatorial.py](leray_c4_combinatorial.py),
